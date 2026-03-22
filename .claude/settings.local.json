@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(which tmux:*)",
+      "Bash(chmod +x /Users/liyufeng/Desktop/agent/workflow/install.sh /Users/liyufeng/Desktop/agent/workflow/tmux/scripts/*.sh /Users/liyufeng/Desktop/agent/workflow/codex/*.sh /Users/liyufeng/Desktop/agent/workflow/github/scripts/*.sh /Users/liyufeng/Desktop/agent/workflow/openclaw/notify.sh /Users/liyufeng/Desktop/agent/workflow/obsidian/sync.sh && echo 'permissions set')",
+      "Bash(echo \"ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:+已设置\\(隐藏\\)}\"; gh auth status 2>&1 | head -5; echo \"GH_REPO env: ${GH_REPO:-未设置}\")"
+    ]
+  }
+}
