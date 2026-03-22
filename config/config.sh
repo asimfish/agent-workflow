@@ -20,7 +20,7 @@ export CODEX_RESULT_DIR="$WORKFLOW_DIR/codex/results"
 mkdir -p "$CODEX_TASK_DIR" "$CODEX_RESULT_DIR"
 
 # ── GitHub ───────────────────────────────────────────
-export GH_REPO="${GH_REPO:-}"          # 格式: owner/repo
+export GH_REPO="${GH_REPO:-asimfish/agent-workflow}"  # 格式: owner/repo
 export GH_DEFAULT_BRANCH="${GH_DEFAULT_BRANCH:-main}"
 
 # ── Obsidian ─────────────────────────────────────────
